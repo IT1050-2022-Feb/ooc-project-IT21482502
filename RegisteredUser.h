@@ -2,7 +2,7 @@
 
 class RegisteredUser : public Visitor
 {
-protected:
+private:
     char Username [30];
     char PW [15];
 
