@@ -1,8 +1,10 @@
 #include <iostream>
 #include <cstring>
+
 #include "Registereduser.h"
 #include "Contestant.h"
 #include "Vote.h"
+
 using namespace std;
 
 class Administrator : public User

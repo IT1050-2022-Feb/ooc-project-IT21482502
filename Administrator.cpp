@@ -5,15 +5,17 @@ using namespace std;
 	
 Administrator::Administrator()
 {
+  
 };
+
 void Administrator::setUserDetails(int ID , string name , string userName , char pword[10] , string contctNo)
 {
-   AID =ID;
+  AID =ID;
   Aname =name;
   username = userName;
   strcpy(password, pword);
   contact = contctNo;
- };
+};
 
 void Administrator::setcontestantDetails(int VoteNo , string contestantName , char pword[10] , string contctNo)
 {
@@ -21,7 +23,7 @@ void Administrator::setcontestantDetails(int VoteNo , string contestantName , ch
   consname = contestantName;
   strcpy(password, pword);
   contact = contctNo;
- };
+};
 
 // Display Administrator details
  void Administrator::displayDetails()

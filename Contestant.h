@@ -1,6 +1,8 @@
 #include<iostream>
 #include<cstring>
+
 #include "RegisteredUser.h"
+
 using namesspace std;
 
 class Contestant : public User
