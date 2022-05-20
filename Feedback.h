@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstring>
-#include"RegisteredUser.h"
+#include "RegisteredUser.h"
 
 using namespace std;
 
@@ -9,11 +9,11 @@ class Feedback
 private :
   int feedbackID;
   char description[50];
-  RegisteredUser* registeredUser;
+  RegisteredUser* registereduser;
 
 public :
   Feedback();
-  Feedback(int fid, char des[]);
+  Feedback(int fbid, char des[], Registereduser* registereduser);
   void displayFeedback();
   void addFeedback();
   ~Feedback();

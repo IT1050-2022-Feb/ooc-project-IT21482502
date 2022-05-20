@@ -16,11 +16,15 @@ Contestant::Contestant()
   strcpy(contact, contactNo);
 };
  
-void Recipient::displayDetails() {
+void Contestantt::displayDetails() {
   cout << "Voting Number is: " << ID << endl;
   cout << "Contestant Name is: " << name << endl;
   cout << "Username is: " << username << endl;
   cout << "Contact number is: " << contact[10] << endl;
+};
+void Contestantt::checkVotes()
+{
+  
 };
  
 Contestant::~Contestant()

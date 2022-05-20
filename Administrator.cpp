@@ -31,6 +31,17 @@ void Administrator::setcontestantDetails(int VoteNo , string contestantName , ch
   cout<<"Adminname :"<<Aname<< endl;
   cout<<"ContactNo:" <<contact<< endl;
 };
+
+void Administrator::updateDetails()
+{
+  
+};
+
+void Administrator::checkUser()
+{
+  
+};
+
 Administrator::~Administrator()
 {
   cout << "" << endl << endl;

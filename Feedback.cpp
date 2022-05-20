@@ -1,7 +1,7 @@
-#include<iostream>
-#include<cstring>
-#include"Feedback.h"
-#include"RegisteredUser.h"
+#include <iostream>
+#include <cstring>
+#include "Feedback.h"
+#include "RegisteredUser.h"
 
 using namespace std;
 
@@ -11,9 +11,9 @@ Feedback:: Feedback()
   strcpy(description,"");
 }
 
-Feedback:: Feedback(int fid, char des[])
+Feedback:: Feedback(int fbid, char des[], Registereduser* registereduser)
 {
-  feedbackID = fid;
+  feedbackID = fbid;
   strcpy(description,des);  
 }
 
@@ -30,5 +30,5 @@ void Feedback :: addFeedback()
 
 Feedback:: ~Feedback()
 {
-  
+  cout<< "Feedback desctuctor is called"<< endl;
 }

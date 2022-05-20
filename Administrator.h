@@ -8,14 +8,14 @@ using namespace std;
 class Administrator : public User
 {
 private :
-  Vote* votet[10];
-  int AID ;
+  int AID;
   string Aname;
 
 public:
   Administrator();
-  void setUserDetails(int ID , string name , string userName , char pword[10] , string contctNo);
+  void setUserDetails(int ID, string Aname, string userName , char password[10] , string Contctumber);
   void displayDetails();
+  void checkUser();
   
   ~Administrator();
 };
