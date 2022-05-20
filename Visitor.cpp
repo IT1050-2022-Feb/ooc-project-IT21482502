@@ -24,6 +24,7 @@ Visitor::Visitor(int uID, char uName[], char uAddress[], char uEmail[], char uGe
   strycpy(userEmail, uEmail);
   strycpy(gender, uGender);
   strycpy(phone,uPhone);
+  
 }
 
 void Visitor::Register ()
