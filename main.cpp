@@ -30,6 +30,7 @@ int main()
   Feedback* fback1 = newfeedback();
   Feed* feed1 = newfeed();
 
+  DigitalMarketer *dm = new DigitalMarketer();
 
 
 
@@ -67,6 +68,9 @@ int main()
   feed1 -> displayFeedback();
   feed1 -> addFeedback();
 
+  dm -> DisplaydmDetails();
+  dm -> updateAdvertisements();
+
   
 
 
@@ -78,6 +82,7 @@ int main()
   delete vote;
   delete fback1;
   delete feed1;
+  delete dm;
 
   
 }
