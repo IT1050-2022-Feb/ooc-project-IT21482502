@@ -50,7 +50,6 @@ void RegisteredUser :: addFeedback()
 
 RegisteredUser :: ~RegisteredUser()
 {
-  
-}
+  }
 
 
