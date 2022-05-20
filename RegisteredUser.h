@@ -16,4 +16,5 @@ public:
     void deleteAccount();
     void addFeedback();
     ~RegisteredUser();
+
 }
