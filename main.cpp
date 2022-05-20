@@ -7,6 +7,7 @@
 #include"Feedback.h"
 #include"Feed.h"
 #include"Contestant.h"
+#include"DigitalMarketer.h"
 
 
 
