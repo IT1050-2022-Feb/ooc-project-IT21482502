@@ -14,6 +14,7 @@ void Administrator::setUserDetails(int ID , string name , string userName , char
   strcpy(password, pword);
   contact = contctNo;
  };
+
 void Administrator::setcontestantDetails(int VoteNo , string contestantName , char pword[10] , string contctNo)
 {
   VNO =VoteNo;
@@ -21,6 +22,7 @@ void Administrator::setcontestantDetails(int VoteNo , string contestantName , ch
   strcpy(password, pword);
   contact = contctNo;
  };
+
 // Display Administrator details
  void Administrator::displayDetails()
 {

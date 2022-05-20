@@ -7,6 +7,7 @@ Contestant::Contestant()
 {
   void Contestant::setUserDetails(int VID, string Rname,string userName, char pw[10], char contactNo[10])
 }
+
 {
   ID = VID;
   name = Vname;
