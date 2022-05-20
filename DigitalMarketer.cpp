@@ -1,3 +1,6 @@
+/* IT21245824 - D.A.H.Madusanka
+Group 3.2 G2
+Malabe*/
 #include "Digital_Marketer.h"
 #include <iostream>
 #include <cstring>
